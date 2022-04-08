@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  color: #000;
+}
+
+.heading-primary {
+  margin-top: 5%;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.settings {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+}
+.btn {
+  font-family: "Press Start 2P", sans-serif;
+  display: inline-block;
+  padding: 2rem 2rem;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.btn-sp {
+  font-family: "Press Start 2P", sans-serif;
+  display: inline-block;
+  padding: 2rem 2rem;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:visited {
+  background: #fff;
+  color: #000;
+}
+.btn-sp:hover,
+.btn-sp:visited {
+  background: #000;
+  color: #fff;
+}
