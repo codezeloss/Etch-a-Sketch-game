@@ -108,6 +108,9 @@ eraseModeBtn.addEventListener('click', () => {
 
 clearModeBtn.addEventListener('click', () => {
   clearBtn = true;
+  colorBtn = false;
+  rainbowBtn = false;
+  eraserBtn = false;
   clearAll();
   colorGrid();
 });
