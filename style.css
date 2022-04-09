@@ -14,8 +14,8 @@ body {
 }
 
 .heading-primary {
-  margin-top: 5%;
-  font-family: "Press Start 2P", sans-serif;
+  margin-top: 2%;
+  font-family: 'Press Start 2P', sans-serif;
   font-size: 4rem;
   font-weight: bold;
   text-align: center;
@@ -30,7 +30,7 @@ body {
   padding: 2rem;
 }
 .btn {
-  font-family: "Press Start 2P", sans-serif;
+  font-family: 'Press Start 2P', sans-serif;
   display: inline-block;
   padding: 2rem 2rem;
   background: #000;
@@ -42,7 +42,7 @@ body {
   cursor: pointer;
 }
 .btn-sp {
-  font-family: "Press Start 2P", sans-serif;
+  font-family: 'Press Start 2P', sans-serif;
   display: inline-block;
   padding: 2rem 2rem;
   background: #fff;
@@ -63,4 +63,23 @@ body {
 .btn-sp:visited {
   background: #000;
   color: #fff;
+}
+
+.grid-container {
+  display: grid;
+  max-width: 70rem;
+  height: 70rem;
+  margin: 3rem auto;
+}
+
+.footer {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
 }
